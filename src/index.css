@@ -1,0 +1,81 @@
+@import 'tailwindcss';
+
+html {
+    font-size: calc(100vw / 1440 * 10);
+    line-height: 1;
+    scroll-behavior: smooth;
+
+    @media (max-width: 550px) {
+        font-size: 10px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: calc(100vw / 375 * 10);
+    }
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url('./assets/fonts/Inter_24pt-Regular.woff') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('./assets/fonts/Inter_28pt-Bold.woff') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter Extrabold';
+    src: url('./assets/fonts/Inter_28pt-ExtraBold.woff') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter Medium';
+    src: url('./assets/fonts/Inter_28pt-Medium.woff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    /* Colors */
+    /* Background */
+    --color-primary-bg: '#ffffff';
+    --color-footer: '#111827';
+    --color-dark-gray: rgba(213, 213, 213, 0.3);
+
+    /* Text */
+    --color-primary-text: '#000000';
+    --color-blue-text: '#3b82f6';
+    --color-red-text: '#f63b3b';
+    --color-gray-text: rgba(255, 255, 255, 0.7);
+
+    /* Border */
+    --color-gray-border: rgba(0, 0, 0, 0.2);
+
+    /* Buttons */
+    --color-btn-active: #3b82f6;
+    /* --color-btn-inactive: #e5e7eb */
+    --color-btn-hover: #fbc02d;
+
+    /* Font */
+    --font-inter: 'Inter Regular', sans-serif;
+    --font-inter-bold: 'Inter Bold', sans-serif;
+    --font-inter-extrabold: 'Inter Extrabold', sans-serif;
+    --font-inter-medium: 'Inter Medium', sans-serif;
+
+    /* Breakpoints */
+    --breakpoint-sm: 480px;
+}
+
+body {
+    color: #000;
+}
