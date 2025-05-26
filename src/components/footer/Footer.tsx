@@ -155,7 +155,7 @@ const Footer = (props: Props) => {
                         <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
                             <Link to="/">
                                 <svg
-                                    className='w-[2.25rem] h-[2.25rem]'
+                                    className="w-[2.25rem] h-[2.25rem]"
                                     viewBox="0 0 6 10"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +200,7 @@ const Footer = (props: Props) => {
 
                 {/* Copyright */}
                 <div>
-                    <span className='text-[1.25rem] text-gray-text'>
+                    <span className="text-[1.25rem] text-gray-text">
                         &copy; 2025 SalesEco. All rights reserved.
                     </span>
                 </div>

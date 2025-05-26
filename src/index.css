@@ -51,6 +51,7 @@ html {
     --color-primary-bg: '#ffffff';
     --color-footer: '#111827';
     --color-dark-gray: rgba(213, 213, 213, 0.3);
+    --color-light-blue: rgba(59, 130, 246, 0.2);
 
     /* Text */
     --color-primary-text: '#000000';
@@ -60,9 +61,7 @@ html {
 
     /* Border */
     --color-gray-border: rgba(0, 0, 0, 0.2);
-
-    /* Buttons */
-    --color-btn-active: #3b82f6;
+    --color-red-border: '#f63b3b' /* Buttons */ --color-btn-active: #3b82f6;
     /* --color-btn-inactive: #e5e7eb */
     --color-btn-hover: #fbc02d;
 
