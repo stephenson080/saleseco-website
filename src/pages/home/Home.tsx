@@ -1,43 +1,407 @@
 import React from 'react';
 
+import image_1 from '../../assets/images/image_1.jpg';
+import image_2 from '../../assets/images/image_2.jpg';
+import image_3 from '../../assets/images/image_3.jpg';
+import SalesEcoForm from '../../components/form/SalesEcoForm';
+
 type Props = {};
 
 const Home = (props: Props) => {
     return (
         <div>
-            <section className='px-[1rem] py-[4rem]'>
-                <div className="w-full mx-auto">
-                    <div className="text-center mb-[2rem]">
-                        <h3 className="font-inter-bold text-[1.75rem]">
-                            <span>Why </span>
-                            <span className='text-[#3b82f6]'>SalesEco</span>
-                        </h3>
-                    </div>
-
-                    <div className='w-full py-[2.5rem] px-[2.5rem] rounded-[1.5rem] shadow-2xl'>
-                        <div>
-
-                        </div>
-                        <div>
-                            <h4 className='font-inter-bold text-[1.75rem] mb-[.75rem]'>
-                                Set budgets, not just interests
+            <section className="px-[2rem] py-[4rem] bg-white">
+                <div className="space-y-[2rem]">
+                    <div className="w-full custom-shadow rounded-[1.75rem]">
+                        <div className="w-full p-[4rem]">
+                            <h4 className="font-inter-bold text-[1.5rem] text-center mb-[2rem]">
+                                Built for sellers who want
                             </h4>
-                            <p className='text-[1.5rem]'>
-                                No more window shoppers. Every user has a set budget and intent to transact.
-                            </p>
+                            <ul className="space-y-[1.5rem]">
+                                <li className="flex items-center gap-[1.5rem]">
+                                    <span className="inline-block">
+                                        <svg
+                                            className="w-[1.85rem]"
+                                            viewBox="0 0 15 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.75 7.49933L6.40165 10.151L11.7044 4.84766"
+                                                stroke="#3B82F6"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </span>
+                                    <span className="text-[1.25rem]">No more random traffic</span>
+                                </li>
+                                <li className="flex items-center gap-[1.5rem]">
+                                    <span className="inline-block">
+                                        <svg
+                                            className="w-[1.85rem]"
+                                            viewBox="0 0 15 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.75 7.49933L6.40165 10.151L11.7044 4.84766"
+                                                stroke="#3B82F6"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </span>
+                                    <span className="text-[1.25rem]">
+                                        Access to buyers with set shopping budgets
+                                    </span>
+                                </li>
+                                <li className="flex items-center gap-[1.5rem]">
+                                    <span className="inline-block">
+                                        <svg
+                                            className="w-[1.85rem]"
+                                            viewBox="0 0 15 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.75 7.49933L6.40165 10.151L11.7044 4.84766"
+                                                stroke="#3B82F6"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </span>
+                                    <span className="text-[1.25rem]">
+                                        Increased visibility based on intent, not promotion
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="w-full custom-shadow rounded-[1.75rem]">
+                        <div className="w-full p-[4rem]">
+                            <h4 className="font-inter-bold text-[1.5rem] text-center mb-[2rem]">
+                                Built for buyers who want
+                            </h4>
+                            <ul className="space-y-[1.5rem]">
+                                <li className="flex items-center gap-[1.5rem]">
+                                    <span className="inline-block">
+                                        <svg
+                                            className="w-[1.85rem]"
+                                            viewBox="0 0 15 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.75 7.49933L6.40165 10.151L11.7044 4.84766"
+                                                stroke="#3B82F6"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </span>
+                                    <span className="text-[1.25rem]">
+                                        A safer more focused shopping experience
+                                    </span>
+                                </li>
+                                <li className="flex items-center gap-[1.5rem]">
+                                    <span className="inline-block">
+                                        <svg
+                                            className="w-[1.85rem]"
+                                            viewBox="0 0 15 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.75 7.49933L6.40165 10.151L11.7044 4.84766"
+                                                stroke="#3B82F6"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </span>
+                                    <span className="text-[1.25rem]">
+                                        Sellers that meet their budget and prefrences
+                                    </span>
+                                </li>
+                                <li className="flex items-center gap-[1.5rem]">
+                                    <span className="inline-block">
+                                        <svg
+                                            className="w-[1.85rem]"
+                                            viewBox="0 0 15 15"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M3.75 7.49933L6.40165 10.151L11.7044 4.84766"
+                                                stroke="#3B82F6"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </span>
+                                    <span className="text-[1.25rem]">
+                                        Clear, simple matching by location and intent
+                                    </span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
 
+            <section className="px-[1rem] py-[4rem]">
+                <div className="w-full mx-auto">
+                    <div className="text-center mb-[3rem]">
+                        <h3 className="font-inter-bold text-[1.75rem]">
+                            <span>Why </span>
+                            <span className="text-[#3b82f6]">SalesEco </span>
+                            <span>Works</span>
+                        </h3>
+                    </div>
+
+                    <div className="w-full space-y-[3.75rem]">
+                        <div className="flex gap-4">
+                            <div className="flex-shrink-0 h-[15rem] w-[50%] rounded-[1.5rem]">
+                                <img
+                                    src={image_1}
+                                    alt=""
+                                    className="w-full h-full object-fit rounded-[1.5rem]"
+                                />
+                            </div>
+                            <div className="flex gap-4">
+                                <span className="inline-block font-inter-bold text-[2rem] text-[#3b82f6]">
+                                    01)
+                                </span>
+                                <div>
+                                    <h4 className="font-inter-bold text-[1.5rem] mb-[.75rem]">
+                                        State your shopping budget or inventory list
+                                    </h4>
+                                    <p className="text-[1.5rem]">
+                                        Let us know what you are planning on buying or selling
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex gap-4">
+                            <div className="flex-shrink-0 h-[15rem] w-[50%] rounded-[1.5rem]">
+                                <img
+                                    src={image_2}
+                                    alt=""
+                                    className="w-full h-full object-fit rounded-[1.5rem]"
+                                />
+                            </div>
+                            <div className="flex gap-4">
+                                <span className="inline-block font-inter-bold text-[2rem] text-[#3b82f6]">
+                                    02)
+                                </span>
+                                <div>
+                                    <h4 className="font-inter-bold text-[1.5rem] mb-[.75rem]">
+                                        Get Matched With the Right Users
+                                    </h4>
+                                    <p className="text-[1.5rem]">
+                                        SalesEco connects you based on category, budget, gender, and
+                                        location.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex gap-4">
+                            <div className="flex-shrink-0 h-[15rem] w-[50%] rounded-[1.5rem]">
+                                <img
+                                    src={image_3}
+                                    alt=""
+                                    className="w-full h-full object-fit rounded-[1.5rem]"
+                                />
+                            </div>
+                            <div className="flex flex-col justify-between">
+                                <div className="flex gap-4">
+                                    <span className="inline-block font-inter-bold text-[2rem] text-[#3b82f6]">
+                                        03)
+                                    </span>
+                                    <div>
+                                        <h4 className="font-inter-bold text-[1.5rem] mb-[.75rem]">
+                                            Shop or Sell to Active Verified Users
+                                        </h4>
+                                        <p className="text-[1.5rem]">
+                                            No more window shoppers. Every user has a set budget and
+                                            intent to transact.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="w-full flex items-end">
+                                    <button className="bg-btn-active py-[1rem] px-[1.5rem] rounded-[.75rem] text-white text-[1.5rem]">
+                                        Join waitlist
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="px-[1rem] py-[6rem]">
+                <div className="w-full mx-auto">
+                    <div className="text-center mb-[3rem]">
+                        <h3 className="font-inter-bold text-[1.75rem]">
+                            <span>Why </span>
+                            <span className="text-[#3b82f6]">SalesEco</span>
+                        </h3>
+                    </div>
+
+                    <div className="space-y-[3rem]">
+                        <div className="w-full py-[4.5rem] px-[2.5rem] rounded-[1.5rem] custom-shadow">
+                            <div className="mb-[2rem]">
+                                <svg
+                                    className="w-[2.75rem]"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M15.8333 6.33333V3.83333C15.8333 3.61232 15.7455 3.40036 15.5893 3.24408C15.433 3.0878 15.221 3 15 3H4.16667C3.72464 3 3.30072 3.17559 2.98816 3.48816C2.67559 3.80072 2.5 4.22464 2.5 4.66667C2.5 5.10869 2.67559 5.53262 2.98816 5.84518C3.30072 6.15774 3.72464 6.33333 4.16667 6.33333H16.6667C16.8877 6.33333 17.0996 6.42113 17.2559 6.57741C17.4122 6.73369 17.5 6.94565 17.5 7.16667V10.5M17.5 10.5H15C14.558 10.5 14.1341 10.6756 13.8215 10.9882C13.5089 11.3007 13.3333 11.7246 13.3333 12.1667C13.3333 12.6087 13.5089 13.0326 13.8215 13.3452C14.1341 13.6577 14.558 13.8333 15 13.8333H17.5C17.721 13.8333 17.933 13.7455 18.0893 13.5893C18.2455 13.433 18.3333 13.221 18.3333 13V11.3333C18.3333 11.1123 18.2455 10.9004 18.0893 10.7441C17.933 10.5878 17.721 10.5 17.5 10.5Z"
+                                        stroke="#3B82F6"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M2.5 4.66602V16.3327C2.5 16.7747 2.67559 17.1986 2.98816 17.5112C3.30072 17.8238 3.72464 17.9993 4.16667 17.9993H16.6667C16.8877 17.9993 17.0996 17.9116 17.2559 17.7553C17.4122 17.599 17.5 17.387 17.5 17.166V13.8327"
+                                        stroke="#3B82F6"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 className="font-inter-bold text-[1.75rem] mb-[.75rem]">
+                                    Set budgets, not just interests
+                                </h4>
+                                <p className="text-[1.5rem]">
+                                    No more window shoppers. Every user has a set budget and intent to
+                                    transact.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="w-full py-[4.5rem] px-[2.5rem] rounded-[1.5rem] custom-shadow">
+                            <div className="mb-[2rem]">
+                                <svg
+                                    className="w-[3.75rem]"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <g clip-path="url(#clip0_1642_2400)">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M11.4281 3.82115C11.4281 3.60803 11.3435 3.40364 11.1928 3.25294C11.0421 3.10224 10.8377 3.01758 10.6246 3.01758C10.4114 3.01758 10.207 3.10224 10.0563 3.25294C9.90564 3.40364 9.82098 3.60803 9.82098 3.82115V5.13151C8.67196 5.30427 7.60861 5.84091 6.78709 6.66262C5.96558 7.48433 5.42919 8.5478 5.2567 9.69686H3.9442C3.73108 9.69686 3.52668 9.78153 3.37599 9.93223C3.22529 10.0829 3.14063 10.2873 3.14062 10.5004C3.14062 10.7136 3.22529 10.9179 3.37599 11.0686C3.52668 11.2193 3.73108 11.304 3.9442 11.304H5.25455C5.42731 12.453 5.96395 13.5164 6.78566 14.3379C7.60737 15.1594 8.67085 15.6958 9.81991 15.8683V17.1797C9.81991 17.3928 9.90457 17.5972 10.0553 17.7479C10.206 17.8986 10.4104 17.9833 10.6235 17.9833C10.8366 17.9833 11.041 17.8986 11.1917 17.7479C11.3424 17.5972 11.4271 17.3928 11.4271 17.1797V15.8694C12.5761 15.6966 13.6394 15.16 14.4609 14.3383C15.2825 13.5165 15.8188 12.4531 15.9913 11.304H17.3028C17.5159 11.304 17.7203 11.2193 17.871 11.0686C18.0217 10.9179 18.1063 10.7136 18.1063 10.5004C18.1063 10.2873 18.0217 10.0829 17.871 9.93223C17.7203 9.78153 17.5159 9.69686 17.3028 9.69686H15.9924C15.8197 8.548 15.2832 7.48476 14.4617 6.66326C13.6402 5.84176 12.577 5.30528 11.4281 5.13258V3.82115ZM14.4453 10.494C14.444 9.73889 14.219 9.00108 13.7987 8.37376C13.3784 7.74643 12.7816 7.25772 12.0837 6.96933C11.3858 6.68095 10.6181 6.60583 9.8776 6.75345C9.13705 6.90108 8.45685 7.26484 7.92291 7.79879C7.38896 8.33274 7.0252 9.01293 6.87757 9.75348C6.72994 10.494 6.80507 11.2617 7.09345 11.9596C7.38183 12.6575 7.87055 13.2543 8.49787 13.6746C9.1252 14.0949 9.86301 14.3199 10.6181 14.3212H10.631C11.6421 14.3195 12.6113 13.917 13.3262 13.2021C14.0412 12.4871 14.4436 11.518 14.4453 10.5069V10.494ZM9.3067 10.5004C9.3067 10.1509 9.44554 9.81572 9.69269 9.56857C9.93983 9.32142 10.275 9.18258 10.6246 9.18258C10.9741 9.18258 11.3093 9.32142 11.5564 9.56857C11.8036 9.81572 11.9424 10.1509 11.9424 10.5004C11.9424 10.85 11.8036 11.1852 11.5564 11.4323C11.3093 11.6794 10.9741 11.8183 10.6246 11.8183C10.275 11.8183 9.93983 11.6794 9.69269 11.4323C9.44554 11.1852 9.3067 10.85 9.3067 10.5004Z"
+                                            fill="#3B82F6"
+                                        />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1642_2400">
+                                            <rect
+                                                width="15"
+                                                height="15"
+                                                fill="white"
+                                                transform="translate(3.125 3)"
+                                            />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 className="font-inter-bold text-[1.75rem] mb-[.75rem]">
+                                    Targeted Matching
+                                </h4>
+                                <p className="text-[1.5rem]">
+                                    We eliminate noise by focusing on real-time needs and market
+                                    categories.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="w-full py-[4.5rem] px-[2.5rem] rounded-[1.5rem] custom-shadow">
+                            <div className="mb-[2rem]">
+                                <svg
+                                    className="w-[2.75rem]"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M14.1667 14.6667C13.2462 14.6667 12.5 15.4129 12.5 16.3333C12.5 17.2538 13.2462 18 14.1667 18C15.0871 18 15.8333 17.2538 15.8333 16.3333C15.8333 15.4129 15.0871 14.6667 14.1667 14.6667ZM14.1667 14.6667H7.74495C7.36074 14.6667 7.16828 14.6667 7.01009 14.5983C6.87055 14.538 6.74949 14.4409 6.66128 14.3171C6.56242 14.1783 6.52266 13.9928 6.44395 13.6254L4.3929 4.05387C4.31237 3.67803 4.27156 3.49031 4.17155 3.34993C4.08335 3.22612 3.96231 3.12868 3.82276 3.06837C3.66455 3 3.47316 3 3.08878 3H2.5M5 5.5H15.7277C16.3292 5.5 16.6296 5.5 16.8315 5.6253C17.0083 5.73505 17.1378 5.90718 17.1942 6.1075C17.2586 6.33619 17.1759 6.62497 17.0092 7.20288L15.8553 11.2029C15.7556 11.5484 15.7058 11.7209 15.6047 11.8491C15.5154 11.9622 15.3977 12.0508 15.2642 12.1052C15.1134 12.1667 14.9343 12.1667 14.5767 12.1667H6.44206M6.66667 18C5.74619 18 5 17.2538 5 16.3333C5 15.4129 5.74619 14.6667 6.66667 14.6667C7.58714 14.6667 8.33333 15.4129 8.33333 16.3333C8.33333 17.2538 7.58714 18 6.66667 18Z"
+                                        stroke="#3B82F6"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 className="font-inter-bold text-[1.75rem] mb-[.75rem]">
+                                    Built for Real Sales
+                                </h4>
+                                <p className="text-[1.5rem]">
+                                    Buyers and sellers remain in the ecosystem to boost trust and
+                                    transaction flow.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="w-full py-[4.5rem] px-[2.5rem] rounded-[1.5rem] custom-shadow">
+                            <div className="mb-[2rem]">
+                                <svg
+                                    className="w-[2.75rem]"
+                                    viewBox="0 0 20 15"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M18.903 6.42369C19.1402 6.71941 19.2716 7.10369 19.2716 7.50084C19.2716 7.89941 19.1402 8.28227 18.903 8.57798C17.403 10.3937 13.9887 13.9294 10.003 13.9294C6.0173 13.9294 2.60301 10.3937 1.10301 8.57798C0.86104 8.2714 0.731009 7.89139 0.734441 7.50084C0.734441 7.10369 0.86587 6.71941 1.10301 6.42369C2.60301 4.60798 6.0173 1.07227 10.003 1.07227C13.9887 1.07227 17.403 4.60798 18.903 6.42369Z"
+                                        stroke="#3B82F6"
+                                        stroke-width="1.71429"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M10.0056 10.3588C10.7633 10.3588 11.4901 10.0578 12.0259 9.52198C12.5617 8.98616 12.8627 8.25944 12.8627 7.50167C12.8627 6.74391 12.5617 6.01719 12.0259 5.48137C11.4901 4.94555 10.7633 4.64453 10.0056 4.64453C9.24782 4.64453 8.52109 4.94555 7.98528 5.48137C7.44946 6.01719 7.14844 6.74391 7.14844 7.50167C7.14844 8.25944 7.44946 8.98616 7.98528 9.52198C8.52109 10.0578 9.24782 10.3588 10.0056 10.3588Z"
+                                        stroke="#3B82F6"
+                                        stroke-width="1.71429"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 className="font-inter-bold text-[1.75rem] mb-[.75rem]">
+                                    Visibility That Counts
+                                </h4>
+                                <p className="text-[1.5rem]">
+                                    The more you're willing to spend or offer, the more reach you
+                                    unlock.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/* Perks */}
-            <section className="px-[1rem] py-[4rem] bg-white shadow-2xl">
+            <section className="px-[1rem] py-[4rem] bg-white custom-shadow">
                 <div className="w-full mx-auto">
                     <div className="text-center mb-[2rem]">
                         <h3 className="font-inter-bold text-[1.75rem]">Early Access Perks</h3>
                     </div>
 
-                    <div className="w-full space-y-[2.25rem] py-[2.5rem] px-[1.25rem] rounded-[1.5rem] shadow-2xl">
+                    <div className="w-full space-y-[2.25rem] py-[2.5rem] px-[1.25rem] rounded-[1.5rem] custom-shadow">
                         <div className="flex items-center gap-[2.5rem]">
                             <div className="p-[1rem] h-fit rounded-full bg-light-blue">
                                 <svg
@@ -156,15 +520,32 @@ const Home = (props: Props) => {
                     </div>
                 </div>
             </section>
-            // [ToDo - Waitlist form] // Know more
-            <section className="px-[2rem] py-[4rem] bg-white shadow-2xl">
+
+            {/* [ToDo - Waitlist form] */}
+            <section className="px-[1rem] bg-[#f9fafb] py-[6rem]">
+                <div className="w-[95%] mx-auto">
+                    <div className="text-center mb-[3rem]">
+                        <h3 className="font-inter-bold text-[1.75rem] mb-[1.5rem]">
+                            Be the First to Join the Future of Fast, Trusted Sale
+                        </h3>
+                        <span className="inline-bloc text-[1.5rem]">
+                            Join our exclusive waitlist and secure early access to SalesEco
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <SalesEcoForm />
+                </div>
+            </section>
+
+            <section className="px-[2rem] py-[6rem] bg-white custom-shadow">
                 <div className="w-[85%] mx-auto">
                     <div className="text-center mb-[2rem]">
                         <h3 className="font-inter-bold text-[1.75rem]">
                             Want to Know More Before You Join?
                         </h3>
                     </div>
-                    <div className="w-full p-[2.5rem] rounded-[1.5rem] shadow-2xl">
+                    <div className="w-full p-[2.5rem] rounded-[1.5rem] custom-shadow">
                         <h4 className="text-[1.75rem] font-inter-bold text-center mb-[2rem]">
                             SalesEco is built for people who've experienced:
                         </h4>
