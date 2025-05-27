@@ -19,32 +19,32 @@ type Props = {};
 const Home = (props: Props) => {
     return (
         <div>
-            <section className="relative h-fit py-[4rem] grad">
-                <div className="w-[80%] mx-auto">
+            <section className="relative h-fit md:h-[calc(100vh-70px)] py-[4rem] grad">
+                <div className="w-[80%] h-full mx-auto ">
                     <Hero />
                 </div>
 
                 {/* Icons */}
                 <div className="absolute top-0 left-0 h-full w-full">
-                    <img src={cardTl} alt="" className="squiggly-effect absolute top-14 left-0 w-[6rem]" />
-                    <img src={cardTr} alt="" className="squiggly-effect absolute top-35 right-20 w-[4rem]" />
-                    <img src={cardBl} alt="" className="squiggly-effect absolute bottom-40 left-0 w-[6rem]" />
-                    <img src={cardBr} alt="" className="squiggly-effect absolute bottom-60 right-0 w-[6rem]" />
+                    <img src={cardTl} alt="" className="squiggly-effect absolute top-14 left-0 md:top-20 md:left-50 w-[6rem] md:w-[11rem]" />
+                    <img src={cardTr} alt="" className="squiggly-effect absolute top-35 right-20 md:top-40 md:right-90 w-[4rem] md:w-[11rem]" />
+                    <img src={cardBl} alt="" className="squiggly-effect absolute bottom-40 left-0 md:bottom-30 md:left-100 w-[6rem] md:w-[11rem]" />
+                    <img src={cardBr} alt="" className="squiggly-effect absolute bottom-60 right-0 md:bottom-80 md:right-100 w-[6rem] md:w-[11rem]" />
                 </div>
             </section>
 
-            <section className="px-[2rem] py-[4rem] bg-white">
-                <div className="space-y-[2rem]">
-                    <div className="w-full custom-shadow rounded-[1.75rem]">
+            <section className="px-[2rem] py-[4rem] md:py-[8rem] bg-white">
+                <div className="space-y-[2rem] md:space-y-0 md:flex md:justify-center gap-[3.5rem] items-center">
+                    <div className="w-full md:w-[60rem] custom-shadow rounded-[1.75rem]">
                         <div className="w-full p-[4rem]">
-                            <h4 className="font-inter-bold text-[1.5rem] text-center mb-[2rem]">
+                            <h4 className="font-inter-bold text-[1.5rem] md:text-[2.5rem] text-center mb-[3rem]">
                                 Built for sellers who want
                             </h4>
                             <ul className="space-y-[1.5rem]">
                                 <li className="flex items-center gap-[1.5rem]">
                                     <span className="inline-block">
                                         <svg
-                                            className="w-[1.85rem]"
+                                            className="w-[1.85rem] md:w-[2rem]"
                                             viewBox="0 0 15 15"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -58,12 +58,12 @@ const Home = (props: Props) => {
                                             />
                                         </svg>
                                     </span>
-                                    <span className="text-[1.25rem]">No more random traffic</span>
+                                    <span className="text-[1.25rem] md:text-[1.75rem]">No more random traffic</span>
                                 </li>
                                 <li className="flex items-center gap-[1.5rem]">
                                     <span className="inline-block">
                                         <svg
-                                            className="w-[1.85rem]"
+                                            className="w-[1.85rem] md:w-[2rem]"
                                             viewBox="0 0 15 15"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -77,14 +77,14 @@ const Home = (props: Props) => {
                                             />
                                         </svg>
                                     </span>
-                                    <span className="text-[1.25rem]">
+                                    <span className="text-[1.25rem] md:text-[1.75rem]">
                                         Access to buyers with set shopping budgets
                                     </span>
                                 </li>
                                 <li className="flex items-center gap-[1.5rem]">
                                     <span className="inline-block">
                                         <svg
-                                            className="w-[1.85rem]"
+                                            className="w-[1.85rem] md:w-[2rem]"
                                             viewBox="0 0 15 15"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -98,23 +98,23 @@ const Home = (props: Props) => {
                                             />
                                         </svg>
                                     </span>
-                                    <span className="text-[1.25rem]">
+                                    <span className="text-[1.25rem] md:text-[1.75rem]">
                                         Increased visibility based on intent, not promotion
                                     </span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="w-full custom-shadow rounded-[1.75rem]">
+                    <div className="w-full md:w-[60rem] custom-shadow rounded-[1.75rem]">
                         <div className="w-full p-[4rem]">
-                            <h4 className="font-inter-bold text-[1.5rem] text-center mb-[2rem]">
+                            <h4 className="font-inter-bold text-[1.5rem] md:text-[2.5rem] text-center mb-[3rem]">
                                 Built for buyers who want
                             </h4>
                             <ul className="space-y-[1.5rem]">
                                 <li className="flex items-center gap-[1.5rem]">
                                     <span className="inline-block">
                                         <svg
-                                            className="w-[1.85rem]"
+                                            className="w-[1.85rem] md:w-[2rem]"
                                             viewBox="0 0 15 15"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -128,14 +128,14 @@ const Home = (props: Props) => {
                                             />
                                         </svg>
                                     </span>
-                                    <span className="text-[1.25rem]">
+                                    <span className="text-[1.25rem] md:text-[1.75rem]">
                                         A safer more focused shopping experience
                                     </span>
                                 </li>
                                 <li className="flex items-center gap-[1.5rem]">
                                     <span className="inline-block">
                                         <svg
-                                            className="w-[1.85rem]"
+                                            className="w-[1.85rem] md:w-[2rem]"
                                             viewBox="0 0 15 15"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -149,14 +149,14 @@ const Home = (props: Props) => {
                                             />
                                         </svg>
                                     </span>
-                                    <span className="text-[1.25rem]">
+                                    <span className="text-[1.25rem] md:text-[1.75rem]">
                                         Sellers that meet their budget and prefrences
                                     </span>
                                 </li>
                                 <li className="flex items-center gap-[1.5rem]">
                                     <span className="inline-block">
                                         <svg
-                                            className="w-[1.85rem]"
+                                            className="w-[1.85rem] md:w-[2rem]"
                                             viewBox="0 0 15 15"
                                             fill="none"
                                             xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +170,7 @@ const Home = (props: Props) => {
                                             />
                                         </svg>
                                     </span>
-                                    <span className="text-[1.25rem]">
+                                    <span className="text-[1.25rem] md:text-[1.75rem]">
                                         Clear, simple matching by location and intent
                                     </span>
                                 </li>
