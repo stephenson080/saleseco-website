@@ -12,3 +12,10 @@ export interface Interest {
     id: string;
     label: string;
 }
+
+export interface TimeLeft {
+    days: number;
+    hours: number;
+    minutes: number;
+    seconds: number;
+}

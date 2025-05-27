@@ -1,15 +1,38 @@
 import React from 'react';
 
+// Icons
+import cardTl from '../../assets/icons/card_tl.svg';
+import cardTr from '../../assets/icons/card_tr.svg';
+import cardBl from '../../assets/icons/shop_bags.svg';
+import cardBr from '../../assets/icons/cart.svg';
+
+// Images
 import image_1 from '../../assets/images/image_1.jpg';
 import image_2 from '../../assets/images/image_2.jpg';
 import image_3 from '../../assets/images/image_3.jpg';
+
 import SalesEcoForm from '../../components/form/SalesEcoForm';
+import Hero from '../../components/hero/Hero';
 
 type Props = {};
 
 const Home = (props: Props) => {
     return (
         <div>
+            <section className="relative h-fit py-[4rem]">
+                <div className="w-[80%] mx-auto">
+                    <Hero />
+                </div>
+
+                {/* Icons */}
+                <div className="absolute top-0 left-0 h-full w-full">
+                    <img src={cardTl} alt="" className="absolute top-0 left-0" />
+                    <img src={cardTr} alt="" className="absolute top-0 right-0" />
+                    <img src={cardBl} alt="" className="absolute bottom-0 left-0" />
+                    <img src={cardBr} alt="" className="absolute bottom-0 right-0" />
+                </div>
+            </section>
+
             <section className="px-[2rem] py-[4rem] bg-white">
                 <div className="space-y-[2rem]">
                     <div className="w-full custom-shadow rounded-[1.75rem]">
@@ -287,8 +310,8 @@ const Home = (props: Props) => {
                                     Set budgets, not just interests
                                 </h4>
                                 <p className="text-[1.5rem]">
-                                    No more window shoppers. Every user has a set budget and intent to
-                                    transact.
+                                    No more window shoppers. Every user has a set budget and intent
+                                    to transact.
                                 </p>
                             </div>
                         </div>

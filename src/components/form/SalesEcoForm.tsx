@@ -58,9 +58,7 @@ const SalesEcoForm: React.FC = () => {
                 <form onSubmit={handleSubmit} className="space-y-10">
                     {/* Email Address */}
                     <div>
-                        <label className="block text-[1.25rem] mb-4">
-                            Email Address
-                        </label>
+                        <label className="block text-[1.25rem] mb-4">Email Address</label>
                         <input
                             type="email"
                             name="email"
@@ -75,9 +73,7 @@ const SalesEcoForm: React.FC = () => {
                     {/* Country and State */}
                     <div className="grid grid-cols-2 gap-4">
                         <div>
-                            <label className="block text-[1.25rem] mb-4">
-                                Country
-                            </label>
+                            <label className="block text-[1.25rem] mb-4">Country</label>
                             <select
                                 name="country"
                                 value={formData.country}
@@ -96,9 +92,7 @@ const SalesEcoForm: React.FC = () => {
                             </select>
                         </div>
                         <div>
-                            <label className="block text-[1.25rem] mb-4">
-                                State
-                            </label>
+                            <label className="block text-[1.25rem] mb-4">State</label>
                             <select
                                 name="state"
                                 value={formData.state}
@@ -118,9 +112,7 @@ const SalesEcoForm: React.FC = () => {
 
                     {/* Gender */}
                     <div>
-                        <label className="block text-[1.25rem] text-gray-700 mb-4">
-                            Gender
-                        </label>
+                        <label className="block text-[1.25rem] text-gray-700 mb-4">Gender</label>
                         <div className="flex space-x-6">
                             <label className="flex items-center">
                                 <input
