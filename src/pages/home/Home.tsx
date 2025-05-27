@@ -19,17 +19,17 @@ type Props = {};
 const Home = (props: Props) => {
     return (
         <div>
-            <section className="relative h-fit py-[4rem]">
+            <section className="relative h-fit py-[4rem] grad">
                 <div className="w-[80%] mx-auto">
                     <Hero />
                 </div>
 
                 {/* Icons */}
                 <div className="absolute top-0 left-0 h-full w-full">
-                    <img src={cardTl} alt="" className="absolute top-0 left-0" />
-                    <img src={cardTr} alt="" className="absolute top-0 right-0" />
-                    <img src={cardBl} alt="" className="absolute bottom-0 left-0" />
-                    <img src={cardBr} alt="" className="absolute bottom-0 right-0" />
+                    <img src={cardTl} alt="" className="squiggly-effect absolute top-14 left-0 w-[6rem]" />
+                    <img src={cardTr} alt="" className="squiggly-effect absolute top-35 right-20 w-[4rem]" />
+                    <img src={cardBl} alt="" className="squiggly-effect absolute bottom-40 left-0 w-[6rem]" />
+                    <img src={cardBr} alt="" className="squiggly-effect absolute bottom-60 right-0 w-[6rem]" />
                 </div>
             </section>
 
@@ -180,11 +180,11 @@ const Home = (props: Props) => {
                 </div>
             </section>
 
-            <section className="px-[1rem] py-[4rem]">
+            <section className="px-[1rem] py-[4rem] grad-2">
                 <div className="w-full mx-auto">
                     <div className="text-center mb-[3rem]">
                         <h3 className="font-inter-bold text-[1.75rem]">
-                            <span>Why </span>
+                            <span>How </span>
                             <span className="text-[#3b82f6]">SalesEco </span>
                             <span>Works</span>
                         </h3>
@@ -417,6 +417,7 @@ const Home = (props: Props) => {
                     </div>
                 </div>
             </section>
+
             {/* Perks */}
             <section className="px-[1rem] py-[4rem] bg-white custom-shadow">
                 <div className="w-full mx-auto">
