@@ -1,12 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router';
-import LucideAlignJustify from '../icons/LucideAlignJustify';
 
 import logo from '../../assets/icons/logo.png';
 
-type Props = {};
 
-const NavDesktop = (props: Props) => {
+const NavDesktop = () => {
     return (
         <nav className="flex items-center justify-between w-full bg-white py-[1.5rem] md:py-[.8rem] px-[2rem]">
             <div className="w-40 h-fit">

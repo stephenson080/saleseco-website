@@ -1,14 +1,12 @@
-import React from 'react';
 import { Link } from 'react-router';
 
 import logo from '../../assets/icons/logo_light.png';
-import instagram from '../../assets/icons/instagram.svg';
 import IonLogoX from '../icons/IonLogoX';
 import IonLocationOutline from '../icons/IonLocationOutline';
 
-type Props = {};
+// type Props = {};
 
-const FooterDesktop = (props: Props) => {
+const FooterDesktop = () => {
     return (
         <footer className="w-full flex justify-between py-[4.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}

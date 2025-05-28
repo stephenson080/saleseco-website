@@ -1,6 +1,6 @@
-import React, { SVGProps } from 'react';
+// import { SVGProps } from 'react';
 
-export function IonMailOutline(props: SVGProps<SVGSVGElement>) {
+export function IonMailOutline(props: any) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

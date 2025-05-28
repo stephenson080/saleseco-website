@@ -1,6 +1,6 @@
-import React, { SVGProps } from 'react';
+// import { SVGProps } from 'react';
 
-export function LucideAlignJustify(props: SVGProps<SVGSVGElement>) {
+export function LucideAlignJustify(props: any) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

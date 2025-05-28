@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import type { TimeLeft } from '../../lib/types';
-type Props = {};
+// type Props = {};
 
-const CountdownTimer = (props: Props) => {
+const CountdownTimer = () => {
     const [targetDate] = useState(() => {
         const now = new Date();
         const target = new Date(now);

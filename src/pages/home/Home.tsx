@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Components
 import SalesEcoForm from '../../components/form/SalesEcoForm';
@@ -16,9 +15,9 @@ import image_2 from '../../assets/images/image_2.jpg';
 import image_3 from '../../assets/images/image_3.jpg';
 
 
-type Props = {};
+// type Props = {};
 
-const Home = (props: Props) => {
+const Home = () => {
     return (
         <div>
             <section className="relative h-fit md:h-[calc(100vh-70px)] py-[4rem] grad">

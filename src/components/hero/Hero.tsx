@@ -1,4 +1,3 @@
-import React from 'react';
 import CountdownTimer from '../countdown/CountdownTimer';
 
 // Images
@@ -6,9 +5,9 @@ import image_1 from '../../assets/images/image_1.jpg';
 import image_2 from '../../assets/images/image_2.jpg';
 import image_3 from '../../assets/images/image_3.jpg';
 
-type Props = {};
+// type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = () => {
     return (
         <div className="relative h-full flex flex-col space-y-[2rem] justify-center items-center">
             <div>

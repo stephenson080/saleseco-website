@@ -1,13 +1,11 @@
 // Essentials
-import { useState } from 'react';
-import { Route, Routes, useLocation } from 'react-router';
+import { Route, Routes } from 'react-router';
 import { AnimatePresence } from 'framer-motion';
 
 // Pages
 import Home from './pages/home/Home';
 import NavDesktop from './components/navbar/NavDesktop';
 import NavMobile from './components/navbar/NavMobile';
-import Footer from './components/footer/FooterMobile';
 import FooterDesktop from './components/footer/FooterDesktop';
 import FooterMobile from './components/footer/FooterMobile';
 

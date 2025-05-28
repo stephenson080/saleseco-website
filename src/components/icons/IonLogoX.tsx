@@ -1,6 +1,6 @@
-import React, { SVGProps } from 'react';
+// import { SVGProps } from 'react';
 
-export function IonLogoX(props: SVGProps<SVGSVGElement>) {
+export function IonLogoX(props: any) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

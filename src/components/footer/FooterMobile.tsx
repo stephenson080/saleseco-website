@@ -1,13 +1,11 @@
-import React from 'react';
 import { Link } from 'react-router';
 
 import logo from '../../assets/icons/logo_light.png';
-import instagram from '../../assets/icons/instagram.svg';
 import IonLogoX from '../icons/IonLogoX';
 
-type Props = {};
+// type Props = {};
 
-const FooterMobile = (props: Props) => {
+const FooterMobile = () => {
     return (
         <footer className="w-full py-[1.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}

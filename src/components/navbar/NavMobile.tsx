@@ -1,12 +1,11 @@
-import React from 'react';
 import { Link } from 'react-router';
 
 import logo from '../../assets/icons/logo.png';
 import LucideAlignJustify from '../icons/LucideAlignJustify';
 
-type Props = {};
+// type Props = {};
 
-const NavMobile = (props: Props) => {
+const NavMobile = () => {
     return (
         <nav className="flex items-center justify-between w-full bg-white py-[1.5rem] px-[2rem]">
             <div className="w-30 h-fit">
