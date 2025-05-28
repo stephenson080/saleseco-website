@@ -250,8 +250,8 @@ const Home = (props: Props) => {
                                             Get Matched With the Right Users
                                         </h4>
                                         <p className="text-[1.5rem] md:text-[1.75rem] md:leading-[1.95rem]">
-                                            SalesEco connects you based on category, budget, gender, and
-                                            location.
+                                            SalesEco connects you based on category, budget, gender,
+                                            and location.
                                         </p>
                                     </div>
                                 </div>
@@ -274,8 +274,8 @@ const Home = (props: Props) => {
                                                 Shop or Sell to Active Verified Users
                                             </h4>
                                             <p className="text-[1.5rem] md:text-[1.75rem] md:leading-[1.95rem]">
-                                                No more window shoppers. Every user has a set budget and
-                                                intent to transact.
+                                                No more window shoppers. Every user has a set budget
+                                                and intent to transact.
                                             </p>
                                         </div>
                                     </div>
@@ -443,7 +443,9 @@ const Home = (props: Props) => {
             <section className="px-[1rem] py-[4rem] md:py-[6rem] bg-white custom-shadow">
                 <div className="w-full md:w-[80%] mx-auto">
                     <div className="text-center mb-[2rem] md:mb-[4rem]">
-                        <h3 className="font-inter-bold text-[1.75rem] md:text-[2.75rem]">Early Access Perks</h3>
+                        <h3 className="font-inter-bold text-[1.75rem] md:text-[2.75rem]">
+                            Early Access Perks
+                        </h3>
                     </div>
 
                     <div className="w-full space-y-[2.5rem] py-[2.5rem] px-[1.25rem] md:p-[5rem] rounded-[1.5rem] custom-shadow">
@@ -472,7 +474,7 @@ const Home = (props: Props) => {
                             </div>
                         </div>
                         <div className="flex items-center gap-[2.5rem]">
-                        <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
+                            <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
                                 <svg
                                     className="w-[2rem] md:w-[2.5rem]"
                                     viewBox="0 0 12 10"
@@ -496,7 +498,7 @@ const Home = (props: Props) => {
                             </div>
                         </div>
                         <div className="flex items-center gap-[2.5rem]">
-                        <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
+                            <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
                                 <svg
                                     className="w-[2rem] md:w-[2.5rem]"
                                     viewBox="0 0 15 14"
@@ -522,7 +524,7 @@ const Home = (props: Props) => {
                             </div>
                         </div>
                         <div className="flex items-center gap-[2.5rem]">
-                        <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
+                            <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
                                 <svg
                                     className="w-[2rem] md:w-[2.5rem]"
                                     viewBox="0 0 15 13"
@@ -570,15 +572,15 @@ const Home = (props: Props) => {
             <section className="px-[1rem] bg-[#f9fafb] py-[6rem]">
                 <div className="w-[95%] mx-auto">
                     <div className="text-center mb-[3rem]">
-                        <h3 className="font-inter-bold text-[1.75rem] mb-[1.5rem]">
+                        <h3 className="font-inter-bold text-[1.75rem] md:text-[2.75rem] mb-[1.5rem]">
                             Be the First to Join the Future of Fast, Trusted Sale
                         </h3>
-                        <span className="inline-bloc text-[1.5rem]">
+                        <span className="inline-bloc text-[1.5rem] md:text-[1.75rem]">
                             Join our exclusive waitlist and secure early access to SalesEco
                         </span>
                     </div>
                 </div>
-                <div>
+                <div className="w-full md:w-[80%] mx-auto">
                     <SalesEcoForm />
                 </div>
             </section>
@@ -676,17 +678,19 @@ const Home = (props: Props) => {
                             </li>
                         </ul>
 
-                        <div className='mb-[4rem]'>
-                            <span className='text-[1.25rem] md:text-[1.75rem] md:leading-[1.75rem]'>
-                                We're building a transaction-focused marketplace that matches real users for <br className='hidden md:block'/>serious results.
+                        <div className="mb-[4rem]">
+                            <span className="text-[1.25rem] md:text-[1.75rem] md:leading-[1.75rem]">
+                                We're building a transaction-focused marketplace that matches real
+                                users for <br className="hidden md:block" />
+                                serious results.
                             </span>
                         </div>
 
-                        <div className='flex w-full justify-center gap-8 items-center'>
-                            <button className='py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]'>
+                        <div className="flex w-full justify-center gap-8 items-center">
+                            <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
                                 Talk to us
                             </button>
-                            <button className='py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]'>
+                            <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
                                 View our road map
                             </button>
                         </div>

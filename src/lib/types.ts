@@ -19,3 +19,10 @@ export interface TimeLeft {
     minutes: number;
     seconds: number;
 }
+
+export interface ContactFormData {
+    name: string;
+    email: string;
+    inquiryType: string;
+    message: string;
+}

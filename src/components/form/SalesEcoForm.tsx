@@ -54,7 +54,7 @@ const SalesEcoForm: React.FC = () => {
 
     return (
         <div className="h-fit">
-            <div className="bg-white rounded-lg shadow-lg p-8 w-full">
+            <div className="bg-white rounded-lg shadow-lg p-8 md:p-[4rem] w-full">
                 <form onSubmit={handleSubmit} className="space-y-10">
                     {/* Email Address */}
                     <div>
