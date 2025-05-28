@@ -84,6 +84,10 @@ body {
     color: #000;
 }
 
+button {
+    cursor: pointer;
+}
+
 .grad {
     background: linear-gradient(135deg, #e7f0fd 0%, #fff8e7 40%, #e7f0fd 100%);
 }
