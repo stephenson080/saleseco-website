@@ -7,7 +7,9 @@ import { AnimatePresence } from 'framer-motion';
 import Home from './pages/home/Home';
 import NavDesktop from './components/navbar/NavDesktop';
 import NavMobile from './components/navbar/NavMobile';
-import Footer from './components/footer/Footer';
+import Footer from './components/footer/FooterMobile';
+import FooterDesktop from './components/footer/FooterDesktop';
+import FooterMobile from './components/footer/FooterMobile';
 
 function App() {
     return (
@@ -27,7 +29,12 @@ function App() {
             </AnimatePresence>
 
             <div className="w-full">
-                <Footer />
+                <div className="hidden md:block">
+                    <FooterDesktop />
+                </div>
+                <div className="md:hidden">
+                    <FooterMobile />
+                </div>
             </div>
         </section>
     );

@@ -16,21 +16,15 @@ const NavDesktop = (props: Props) => {
             </div>
 
             <div className="">
-                <ul className='flex items-center justify-between space-x-8'>
-                    <li className='text-[1.5rem] hover:text-gray-600 transition duration-300'>
-                        <Link to="/">
-                            How it works
-                        </Link>
+                <ul className="flex items-center justify-between space-x-8">
+                    <li className="text-[1.5rem] hover:text-gray-600 transition duration-300">
+                        <Link to="/">How it works</Link>
                     </li>
-                    <li className='text-[1.5rem] hover:text-gray-600 transition duration-300'>
-                        <Link to="/">
-                            Why SalesEco
-                        </Link>
+                    <li className="text-[1.5rem] hover:text-gray-600 transition duration-300">
+                        <Link to="/">Why SalesEco</Link>
                     </li>
-                    <li className='text-[1.5rem] hover:text-gray-600 transition duration-300'>
-                        <Link to="/">
-                            Early access
-                        </Link>
+                    <li className="text-[1.5rem] hover:text-gray-600 transition duration-300">
+                        <Link to="/">Early access</Link>
                     </li>
                 </ul>
             </div>
@@ -43,7 +37,7 @@ const NavDesktop = (props: Props) => {
                 </div>
             </div>
         </nav>
-    )
+    );
 };
 
 export default NavDesktop;

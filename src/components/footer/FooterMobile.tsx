@@ -7,7 +7,7 @@ import IonLogoX from '../icons/IonLogoX';
 
 type Props = {};
 
-const Footer = (props: Props) => {
+const FooterMobile = (props: Props) => {
     return (
         <footer className="w-full py-[1.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}
@@ -209,4 +209,4 @@ const Footer = (props: Props) => {
     );
 };
 
-export default Footer;
+export default FooterMobile;

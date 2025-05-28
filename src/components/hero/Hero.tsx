@@ -18,12 +18,13 @@ const Hero = (props: Props) => {
             <div className="text-center">
                 <h1 className="font-inter-extrabold text-[2.75rem] md:text-[4.5rem] md:leading-[5rem] mb-[2rem]">
                     Buyers with <span className="inline-block text-[#3b82f6]">Budget</span>. Sellers
-                    with <br className='hidden md:block'/><span className="inline-block text-[#3b82f6]">Solutions</span>.
+                    with <br className="hidden md:block" />
+                    <span className="inline-block text-[#3b82f6]">Solutions</span>.
                 </h1>
 
                 <p className="text-[1.75rem] leading-[2.15rem]">
-                    SalesEco connects real buyers and verified sellers-no fluff, no <br className='hidden md:block'/> fraud, just
-                    fast, intentional sales.
+                    SalesEco connects real buyers and verified sellers-no fluff, no{' '}
+                    <br className="hidden md:block" /> fraud, just fast, intentional sales.
                 </p>
             </div>
 
@@ -86,11 +87,9 @@ const Hero = (props: Props) => {
                 </div>
             </div>
 
-            <div className='md:mt-[3rem]'>
+            <div className="md:mt-[3rem]">
                 <span className="text-[1.5rem]">Secure early access to targeted sales</span>
             </div>
-
-            
         </div>
     );
 };
