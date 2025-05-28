@@ -1,5 +1,9 @@
 import React from 'react';
 
+// Components
+import SalesEcoForm from '../../components/form/SalesEcoForm';
+import Hero from '../../components/hero/Hero';
+
 // Icons
 import cardTl from '../../assets/icons/card_tl.svg';
 import cardTr from '../../assets/icons/card_tr.svg';
@@ -11,8 +15,6 @@ import image_1 from '../../assets/images/image_1.jpg';
 import image_2 from '../../assets/images/image_2.jpg';
 import image_3 from '../../assets/images/image_3.jpg';
 
-import SalesEcoForm from '../../components/form/SalesEcoForm';
-import Hero from '../../components/hero/Hero';
 
 type Props = {};
 

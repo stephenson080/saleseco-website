@@ -28,7 +28,7 @@ const Hero = (props: Props) => {
                 </p>
             </div>
 
-            <div className="flex flex-col md:flex-row-reverse gap-14">
+            <div className="flex flex-col items-center md:items-start md:flex-row-reverse gap-8 md:gap-14">
                 <div className="w-fit p-[.8rem] bg-white rounded-[1rem] flex items-center gap-2">
                     <div className="flex items-center isolate">
                         <div className="bg-red-500 size-11 rounded-full border border-white">

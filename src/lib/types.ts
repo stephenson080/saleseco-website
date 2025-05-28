@@ -26,3 +26,12 @@ export interface ContactFormData {
     inquiryType: string;
     message: string;
 }
+
+export interface ValidationErrors {
+    email?: string;
+    country?: string;
+    state?: string;
+    gender?: string;
+    interests?: string;
+    budget?: string;
+}
