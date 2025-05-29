@@ -131,7 +131,7 @@ const FooterDesktop = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/">
+                        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfyPmZHBlVgciq3UgSdU_6LW19FR7-E7zsIOrR4MQ_eGUTzZw/viewform?usp=dialog">
                             <span className="font-inter text-[1.75rem] text-[#D1D5DB]">
                                 Join waitlist
                             </span>

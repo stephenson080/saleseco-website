@@ -64,25 +64,31 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='relative z-1'>
-                    <button className="cursor-pointer bg-btn-active flex items-center gap-4 py-[1.35rem] px-[2.5rem] rounded-[1.5rem] text-white">
-                        <span className="inline-block text-[1.75rem]">Join waitlist</span>
-                        <span className="inline-block">
-                            <svg
-                                className="w-[1.75rem]"
-                                viewBox="0 0 14 14"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M2.91406 7H11.0807M11.0807 7L7.58073 3.5M11.0807 7L7.58073 10.5"
-                                    stroke="white"
-                                    strokeWidth="1"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                />
-                            </svg>
-                        </span>
-                    </button>
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfyPmZHBlVgciq3UgSdU_6LW19FR7-E7zsIOrR4MQ_eGUTzZw/viewform?usp=dialog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="cursor-pointer bg-btn-active flex items-center gap-4 py-[1.35rem] px-[2.5rem] rounded-[1.5rem] text-white">
+                            <span className="inline-block text-[1.75rem]">Join waitlist</span>
+                            <span className="inline-block">
+                                <svg
+                                    className="w-[1.75rem]"
+                                    viewBox="0 0 14 14"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M2.91406 7H11.0807M11.0807 7L7.58073 3.5M11.0807 7L7.58073 10.5"
+                                        stroke="white"
+                                        strokeWidth="1"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+                            </span>
+                        </button>
+                    </a>
                 </div>
             </div>
 
