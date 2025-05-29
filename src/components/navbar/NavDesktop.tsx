@@ -5,7 +5,7 @@ import logo from '../../assets/icons/logo.png';
 
 const NavDesktop = () => {
     return (
-        <nav className="flex items-center justify-between w-full bg-white py-[1.5rem] md:py-[.8rem] px-[2rem]">
+        <nav className="flex items-center justify-between w-full px-[2rem]">
             <div className="w-40 h-fit">
                 <Link to="/">
                     <img src={logo} alt="company_logo" />

@@ -12,7 +12,7 @@ import FooterMobile from './components/footer/FooterMobile';
 function App() {
     return (
         <section>
-            <div>
+            <div className='w-full backdrop-blur-[24px] py-[1.5rem] md:py-[.8rem] fixed top-0 z-100 bg-white/75'>
                 <div className="hidden md:block">
                     <NavDesktop />
                 </div>

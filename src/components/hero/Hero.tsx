@@ -63,7 +63,7 @@ const Hero = () => {
                         <span className="text-[1.5rem]">1,343 people have joined</span>
                     </div>
                 </div>
-                <div>
+                <div className='relative z-1'>
                     <button className="cursor-pointer bg-btn-active flex items-center gap-4 py-[1.35rem] px-[2.5rem] rounded-[1.5rem] text-white">
                         <span className="inline-block text-[1.75rem]">Join waitlist</span>
                         <span className="inline-block">

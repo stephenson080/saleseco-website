@@ -19,7 +19,7 @@ import image_3 from '../../assets/images/image_3.jpg';
 
 const Home = () => {
     return (
-        <div>
+        <div className='pt-[7rem]'>
             <section className="relative h-fit md:h-[calc(100vh-70px)] py-[4rem] grad">
                 <div className="w-[80%] h-full mx-auto ">
                     <Hero />
