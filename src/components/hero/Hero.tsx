@@ -76,9 +76,9 @@ const Hero = () => {
                                 <path
                                     d="M2.91406 7H11.0807M11.0807 7L7.58073 3.5M11.0807 7L7.58073 10.5"
                                     stroke="white"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                 />
                             </svg>
                         </span>
