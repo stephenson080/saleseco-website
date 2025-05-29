@@ -29,7 +29,7 @@ const FooterDesktop = () => {
                     <div className="mb-[2rem]">
                         <ul className="flex gap-[1.25rem]">
                             <li className="p-[1rem] rounded-full bg-dark-gray">
-                                <Link to="/">
+                                <Link target='_blank' to="https://www.instagram.com/salesecoofficial?igsh=MWRxZ3Bydms0dGJvNA==">
                                     <svg
                                         className="w-[2.25rem]"
                                         viewBox="0 0 10 10"
@@ -44,12 +44,12 @@ const FooterDesktop = () => {
                                 </Link>
                             </li>
                             <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
-                                <Link to="/">
+                                <Link target='_blank' to="/">
                                     <IonLogoX className="text-[2rem] text-white" />
                                 </Link>
                             </li>
                             <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
-                                <Link to="/">
+                                <Link target='_blank' to="/">
                                     <svg
                                         className="w-[2.25rem] h-[2.25rem]"
                                         viewBox="0 0 6 10"
@@ -64,7 +64,7 @@ const FooterDesktop = () => {
                                 </Link>
                             </li>
                             <li className="p-[1rem] rounded-full bg-dark-gray">
-                                <Link to="/">
+                                <Link target='_blank' to="/">
                                     <svg
                                         className="w-[2.25rem]"
                                         viewBox="0 0 10 10"

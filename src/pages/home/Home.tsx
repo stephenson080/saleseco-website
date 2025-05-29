@@ -217,7 +217,7 @@ const Home = () => {
                                     <img
                                         src={image_1}
                                         alt=""
-                                        className="w-full h-full object-fit rounded-[1.5rem]"
+                                        className="w-full h-full object-cover rounded-[1.5rem]"
                                     />
                                 </div>
                                 <div className="flex gap-4 md:gap-12">
@@ -239,7 +239,7 @@ const Home = () => {
                                     <img
                                         src={image_2}
                                         alt=""
-                                        className="w-full h-full object-fit rounded-[1.5rem]"
+                                        className="w-full h-full object-cover rounded-[1.5rem]"
                                     />
                                 </div>
                                 <div className="flex gap-4 md:gap-12">
@@ -262,7 +262,7 @@ const Home = () => {
                                     <img
                                         src={image_3}
                                         alt=""
-                                        className="w-full h-full object-fit rounded-[1.5rem]"
+                                        className="w-full h-full object-cover rounded-[1.5rem]"
                                     />
                                 </div>
                                 <div className="w-full flex flex-col justify-between">

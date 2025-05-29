@@ -60,7 +60,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        <span className="text-[1.5rem]">2,516 people have joined</span>
+                        <span className="text-[1.5rem]">1,343 people have joined</span>
                     </div>
                 </div>
                 <div>
