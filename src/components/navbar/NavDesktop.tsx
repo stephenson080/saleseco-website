@@ -2,7 +2,6 @@ import { Link } from 'react-router';
 
 import logo from '../../assets/icons/logo.png';
 
-
 const NavDesktop = () => {
     return (
         <nav className="flex items-center justify-between w-full px-[2rem]">

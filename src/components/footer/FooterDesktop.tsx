@@ -29,7 +29,10 @@ const FooterDesktop = () => {
                     <div className="mb-[2rem]">
                         <ul className="flex gap-[1.25rem]">
                             <li className="p-[1rem] rounded-full bg-dark-gray">
-                                <Link target='_blank' to="https://www.instagram.com/salesecoofficial?igsh=MWRxZ3Bydms0dGJvNA==">
+                                <Link
+                                    target="_blank"
+                                    to="https://www.instagram.com/salesecoofficial?igsh=MWRxZ3Bydms0dGJvNA=="
+                                >
                                     <svg
                                         className="w-[2.25rem]"
                                         viewBox="0 0 10 10"
@@ -44,50 +47,43 @@ const FooterDesktop = () => {
                                 </Link>
                             </li>
                             <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
-                                <Link target='_blank' to="/">
+                                <Link
+                                    target="_blank"
+                                    to="https://x.com/sales_eco?t=ZhrjbyR9EVAOhXZ38M8dKg&s=09"
+                                >
                                     <IonLogoX className="text-[2rem] text-white" />
                                 </Link>
                             </li>
                             <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
-                                <Link target='_blank' to="/">
+                                <Link
+                                    target="_blank"
+                                    to="https://www.tiktok.com/@saleseco5?_t=ZM-8wl8QuLSPOK&_r=1"
+                                >
                                     <svg
-                                        className="w-[2.25rem] h-[2.25rem]"
-                                        viewBox="0 0 6 10"
+                                        className="w-[2.25rem]"
+                                        viewBox="0 0 16 18"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
                                         <path
-                                            d="M3.83073 5.62565H4.8724L5.28906 3.95898H3.83073V3.12565C3.83073 2.69648 3.83073 2.29232 4.66406 2.29232H5.28906V0.892318C5.15323 0.874401 4.64031 0.833984 4.09865 0.833984C2.9674 0.833984 2.16406 1.5244 2.16406 2.79232V3.95898H0.914062V5.62565H2.16406V9.16732H3.83073V5.62565Z"
+                                            d="M12.5963 2.82C11.9128 2.03953 11.5361 1.0374 11.5363 0H8.44625V12.4C8.42291 13.0712 8.13977 13.7071 7.65656 14.1735C7.17334 14.6399 6.52785 14.9004 5.85625 14.9C4.43625 14.9 3.25625 13.74 3.25625 12.3C3.25625 10.58 4.91625 9.29 6.62625 9.82V6.66C3.17625 6.2 0.15625 8.88 0.15625 12.3C0.15625 15.63 2.91625 18 5.84625 18C8.98625 18 11.5363 15.45 11.5363 12.3V6.01C12.7892 6.90985 14.2936 7.39265 15.8363 7.39V4.3C15.8363 4.3 13.9563 4.39 12.5963 2.82Z"
                                             fill="white"
                                         />
                                     </svg>
                                 </Link>
                             </li>
                             <li className="p-[1rem] rounded-full bg-dark-gray">
-                                <Link target='_blank' to="/">
+                                <Link target="_blank" to="https://youtube.com/@salesecoafrica?si=OirgIwEz7XiFgr7w">
                                     <svg
                                         className="w-[2.25rem]"
-                                        viewBox="0 0 10 10"
+                                        viewBox="0 0 24 24"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <g clipPath="url(#clip0_1642_2720)">
-                                            <path
-                                                fillRule="evenodd"
-                                                clipRule="evenodd"
-                                                d="M5.20964 3.665V4.37208C5.35771 4.14653 5.56181 3.96329 5.80196 3.8403C6.04211 3.7173 6.31008 3.65876 6.57964 3.67042C8.01922 3.67042 8.33047 4.57042 8.33047 5.74125V8.125H6.99714V6.01167C6.99714 5.5075 6.89547 4.85917 6.11047 4.85917C5.34922 4.85917 5.21922 5.40792 5.21922 5.97417V8.125H3.89006V3.665H5.20964ZM2.99714 2.54417C2.99697 2.67625 2.95782 2.80535 2.88459 2.91527C2.81136 3.0252 2.7073 3.11105 2.58547 3.16208C2.46369 3.2127 2.32961 3.22594 2.20028 3.20012C2.07095 3.1743 1.95223 3.11058 1.85922 3.01708C1.76604 2.92352 1.7026 2.8045 1.67689 2.67499C1.65117 2.54547 1.66432 2.41124 1.71468 2.28918C1.76505 2.16712 1.85038 2.06267 1.95995 1.98897C2.06952 1.91528 2.19843 1.87563 2.33047 1.875C2.41823 1.875 2.50513 1.89233 2.58617 1.92599C2.66722 1.95964 2.74082 2.00897 2.80276 2.07115C2.8647 2.13332 2.91375 2.2071 2.94711 2.28828C2.98047 2.36945 2.99747 2.45641 2.99714 2.54417Z"
-                                                fill="white"
-                                            />
-                                            <path
-                                                d="M2.9974 3.66992H1.66406V8.12451H2.9974V3.66992Z"
-                                                fill="white"
-                                            />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_1642_2720">
-                                                <rect width="10" height="10" fill="white" />
-                                            </clipPath>
-                                        </defs>
+                                        <path
+                                            d="M10 15L15.19 12L10 9V15ZM21.56 7.17C21.69 7.64 21.78 8.27 21.84 9.07C21.91 9.87 21.94 10.56 21.94 11.16L22 12C22 14.19 21.84 15.8 21.56 16.83C21.31 17.73 20.73 18.31 19.83 18.56C19.36 18.69 18.5 18.78 17.18 18.84C15.88 18.91 14.69 18.94 13.59 18.94L12 19C7.81 19 5.2 18.84 4.17 18.56C3.27 18.31 2.69 17.73 2.44 16.83C2.31 16.36 2.22 15.73 2.16 14.93C2.09 14.13 2.06 13.44 2.06 12.84L2 12C2 9.81 2.16 8.2 2.44 7.17C2.69 6.27 3.27 5.69 4.17 5.44C4.64 5.31 5.5 5.22 6.82 5.16C8.12 5.09 9.31 5.06 10.41 5.06L12 5C16.19 5 18.8 5.16 19.83 5.44C20.73 5.69 21.31 6.27 21.56 7.17Z"
+                                            fill="white"
+                                        />
                                     </svg>
                                 </Link>
                             </li>

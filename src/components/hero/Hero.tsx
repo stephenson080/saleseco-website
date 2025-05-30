@@ -30,40 +30,24 @@ const Hero = () => {
             <div className="flex flex-col items-center md:items-start md:flex-row-reverse gap-8 md:gap-14">
                 <div className="w-fit p-[.8rem] bg-white rounded-[1rem] flex items-center gap-2">
                     <div className="flex items-center isolate">
-                        <div className="bg-red-500 size-11 rounded-full border border-white">
-                            <img
-                                className="h-full w-full object-fit rounded-full"
-                                src={image_1}
-                                alt=""
-                            />
+                        <div className="bg-[#34a659] size-11 flex justify-center items-center rounded-full border border-white">
+                            <span className='inline-block text-[1.45rem] text-white'>S</span>
                         </div>
-                        <div className="bg-red-500 size-11 relative -left-2 -z-1 rounded-full border border-white">
-                            <img
-                                className="h-full w-full object-fit rounded-full"
-                                src={image_2}
-                                alt=""
-                            />
+                        <div className="bg-[#4185f4] size-11 flex justify-center items-center relative -left-2 -z-1 rounded-full border border-white">
+                            <span className='inline-block text-[1.45rem] text-white'>J</span>
                         </div>
-                        <div className="bg-red-500 size-11 rounded-full relative -left-4 -z-2 border border-white">
-                            <img
-                                className="h-full w-full object-fit rounded-full"
-                                src={image_3}
-                                alt=""
-                            />
+                        <div className="bg-[#e3453d] size-11 flex justify-center items-center rounded-full relative -left-4 -z-2 border border-white">
+                            <span className='inline-block text-[1.45rem] text-white'>P</span>
                         </div>
-                        <div className="bg-red-500 size-11 rounded-full relative -left-6 -z-3 border border-white">
-                            <img
-                                className="h-full w-full object-fit rounded-full"
-                                src={image_1}
-                                alt=""
-                            />
+                        <div className="bg-[#f4ba0d] size-11 flex items-center justify-center rounded-full relative -left-6 -z-3 border border-white">
+                            <span className='inline-block text-[1.45rem] text-white'>T</span>
                         </div>
                     </div>
                     <div>
                         <span className="text-[1.5rem]">1,343 people have joined</span>
                     </div>
                 </div>
-                <div className='relative z-1'>
+                <div className="relative z-1">
                     <button className="cursor-pointer bg-btn-active flex items-center gap-4 py-[1.35rem] px-[2.5rem] rounded-[1.5rem] text-white">
                         <span className="inline-block text-[1.75rem]">Join waitlist</span>
                         <span className="inline-block">

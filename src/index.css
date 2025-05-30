@@ -53,6 +53,10 @@ html {
     --color-dark-gray: rgba(213, 213, 213, 0.3);
     --color-light-blue: rgba(59, 130, 246, 0.2);
     --color-hero: rgb(243, 245, 239);
+    --color-green-h: '#34a659';
+    --color-blue-h: '#4185f4';
+    --color-red-h: '#e3453d';
+    --color-orange-h: '#f4ba0d';
     --color-gray-bg: '#f9fafb';
 
     /* Text */

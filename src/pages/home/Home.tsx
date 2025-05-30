@@ -1,4 +1,3 @@
-
 // Components
 import SalesEcoForm from '../../components/form/SalesEcoForm';
 import Hero from '../../components/hero/Hero';
@@ -14,13 +13,12 @@ import image_1 from '../../assets/images/image_1.jpg';
 import image_2 from '../../assets/images/image_2.jpg';
 import image_3 from '../../assets/images/image_3.jpg';
 
-
 // type Props = {};
 
 const Home = () => {
     return (
-        <div className='pt-[7rem]'>
-            <section className="relative h-fit md:h-[calc(100vh-70px)] py-[4rem] grad">
+        <div className="pt-[5rem]">
+            <section className="relative h-fit md:h-[calc(100vh-50px)] py-[4rem] grad">
                 <div className="w-[80%] h-full mx-auto ">
                     <Hero />
                 </div>
@@ -54,7 +52,7 @@ const Home = () => {
                 <div className="space-y-[2rem] md:space-y-0 md:flex md:justify-center gap-[3.5rem] items-center">
                     <div className="w-full md:w-[60rem] custom-shadow rounded-[1.75rem]">
                         <div className="w-full p-[4rem]">
-                            <h4 className="font-inter-bold text-[1.5rem] md:text-[2.5rem] text-center mb-[3rem]">
+                            <h4 className="font-inter-bold text-[1.75rem] md:text-[2.5rem] text-center mb-[3rem]">
                                 Built for sellers who want
                             </h4>
                             <ul className="space-y-[1.5rem]">
@@ -126,7 +124,7 @@ const Home = () => {
                     </div>
                     <div className="w-full md:w-[60rem] custom-shadow rounded-[1.75rem]">
                         <div className="w-full p-[4rem]">
-                            <h4 className="font-inter-bold text-[1.5rem] md:text-[2.5rem] text-center mb-[3rem]">
+                            <h4 className="font-inter-bold text-[1.75rem] md:text-[2.5rem] text-center mb-[3rem]">
                                 Built for buyers who want
                             </h4>
                             <ul className="space-y-[1.5rem]">
