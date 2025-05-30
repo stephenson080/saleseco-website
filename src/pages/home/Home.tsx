@@ -1,6 +1,6 @@
 
 // Components
-import SalesEcoForm from '../../components/form/SalesEcoForm';
+// import SalesEcoForm from '../../components/form/SalesEcoForm';
 import Hero from '../../components/hero/Hero';
 
 // Icons
@@ -576,7 +576,7 @@ const Home = () => {
             </section>
 
             {/* [ToDo - Waitlist form] */}
-            <section className="px-[1rem] bg-[#f9fafb] py-[6rem]">
+            {/* <section className=" disabled px-[1rem] bg-[#f9fafb] py-[6rem]">
                 <div className="w-[95%] mx-auto">
                     <div className="text-center mb-[3rem]">
                         <h3 className="font-inter-bold text-[1.75rem] md:text-[2.75rem] mb-[1.5rem]">
@@ -590,7 +590,7 @@ const Home = () => {
                 <div className="w-full md:w-[80%] mx-auto">
                     <SalesEcoForm />
                 </div>
-            </section>
+            </section> */}
 
             <section className="px-[2rem] py-[6rem] bg-white custom-shadow">
                 <div className="w-[85%] mx-auto">
