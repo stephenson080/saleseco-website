@@ -1,5 +1,5 @@
 // Components
-import SalesEcoForm from '../../components/form/SalesEcoForm';
+// import SalesEcoForm from '../../components/form/SalesEcoForm';
 import Hero from '../../components/hero/Hero';
 
 // Icons
@@ -279,9 +279,15 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div className="flex place-self-end md:place-self-start">
-                                        <button className="bg-btn-active py-[1rem] md:py-[1.35rem] px-[1.5rem] md:px-[2.5rem] rounded-[.75rem] text-white text-[1.5rem]">
-                                            Join waitlist
-                                        </button>
+                                        <a
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSfyPmZHBlVgciq3UgSdU_6LW19FR7-E7zsIOrR4MQ_eGUTzZw/viewform?usp=dialog"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <button className="bg-btn-active py-[1rem] md:py-[1.35rem] px-[1.5rem] md:px-[2.5rem] rounded-[.75rem] text-white text-[1.5rem]">
+                                                Join waitlist
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -568,7 +574,7 @@ const Home = () => {
             </section>
 
             {/* [ToDo - Waitlist form] */}
-            <section className="px-[1rem] bg-[#f9fafb] py-[6rem]">
+            {/* <section className=" disabled px-[1rem] bg-[#f9fafb] py-[6rem]">
                 <div className="w-[95%] mx-auto">
                     <div className="text-center mb-[3rem]">
                         <h3 className="font-inter-bold text-[1.75rem] md:text-[2.75rem] mb-[1.5rem]">
@@ -582,7 +588,7 @@ const Home = () => {
                 <div className="w-full md:w-[80%] mx-auto">
                     <SalesEcoForm />
                 </div>
-            </section>
+            </section> */}
 
             <section className="px-[2rem] py-[6rem] bg-white custom-shadow">
                 <div className="w-[85%] mx-auto">
@@ -686,9 +692,15 @@ const Home = () => {
                         </div>
 
                         <div className="flex w-full justify-center gap-8 items-center">
-                            <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
-                                Talk to us
-                            </button>
+                            <a
+                                href="mailto:support@saleseco.org"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
+                                    Talk to us
+                                </button>
+                            </a>
                             <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
                                 View our road map
                             </button>
