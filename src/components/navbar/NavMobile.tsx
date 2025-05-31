@@ -47,19 +47,19 @@ const NavMobile = () => {
                     >
                         <div className="">
                             <Link
-                                className="block text-[1.75rem] pb-[1rem] border-b-[.125rem] border-b-[hsl(0,0%,83%)] mb-2"
+                                className="block text-[1.75rem] pb-[1rem] mb-2"
                                 to="/how"
                             >
                                 How it works
                             </Link>
                             <Link
-                                className="block text-[1.75rem] pb-[1rem] border-b-[.125rem] border-b-[hsl(0,0%,83%)] mb-2"
+                                className="block text-[1.75rem] pb-[1rem] mb-2"
                                 to="/why"
                             >
                                 Why SalesEco
                             </Link>
                             <Link
-                                className="block text-[1.75rem] pb-[1rem] border-b-[.125rem] border-b-[hsl(0,0%,83%)] mb-2"
+                                className="block text-[1.75rem]"
                                 to="/early"
                             >
                                 Early access
