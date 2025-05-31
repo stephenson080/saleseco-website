@@ -1,6 +1,5 @@
 import CountdownTimer from '../countdown/CountdownTimer';
 
-
 // type Props = {};
 
 const Hero = () => {
@@ -27,23 +26,23 @@ const Hero = () => {
                 <div className="w-fit p-[.8rem] bg-white rounded-[1rem] flex items-center gap-2">
                     <div className="flex items-center isolate">
                         <div className="bg-[#34a659] size-11 flex justify-center items-center rounded-full border border-white">
-                            <span className='inline-block text-[1.45rem] text-white'>S</span>
+                            <span className="inline-block text-[1.45rem] text-white">S</span>
                         </div>
                         <div className="bg-[#4185f4] size-11 flex justify-center items-center relative -left-2 -z-1 rounded-full border border-white">
-                            <span className='inline-block text-[1.45rem] text-white'>J</span>
+                            <span className="inline-block text-[1.45rem] text-white">J</span>
                         </div>
                         <div className="bg-[#e3453d] size-11 flex justify-center items-center rounded-full relative -left-4 -z-2 border border-white">
-                            <span className='inline-block text-[1.45rem] text-white'>P</span>
+                            <span className="inline-block text-[1.45rem] text-white">P</span>
                         </div>
                         <div className="bg-[#f4ba0d] size-11 flex items-center justify-center rounded-full relative -left-6 -z-3 border border-white">
-                            <span className='inline-block text-[1.45rem] text-white'>T</span>
+                            <span className="inline-block text-[1.45rem] text-white">T</span>
                         </div>
                     </div>
                     <div>
                         <span className="text-[1.5rem]">1,343 people have joined</span>
                     </div>
                 </div>
-                <div className='relative z-1'>
+                <div className="relative z-1">
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfyPmZHBlVgciq3UgSdU_6LW19FR7-E7zsIOrR4MQ_eGUTzZw/viewform?usp=dialog"
                         target="_blank"

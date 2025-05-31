@@ -153,24 +153,47 @@ const FooterMobile = (props: Props) => {
                             </Link>
                         </li>
                         <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
-                            <Link target="_blank" to="https://x.com/sales_eco?t=ZhrjbyR9EVAOhXZ38M8dKg&s=09">
+                            <Link
+                                target="_blank"
+                                to="https://x.com/sales_eco?t=ZhrjbyR9EVAOhXZ38M8dKg&s=09"
+                            >
                                 <IonLogoX className="text-[2rem] text-white" />
                             </Link>
                         </li>
                         <li className="flex items-center justify-center p-[1rem] rounded-full bg-dark-gray">
-                            <Link target="_blank" to="https://www.tiktok.com/@saleseco5?_t=ZM-8wl8QuLSPOK&_r=1">
-                            <svg className='w-[2.25rem]' viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12.5963 2.82C11.9128 2.03953 11.5361 1.0374 11.5363 0H8.44625V12.4C8.42291 13.0712 8.13977 13.7071 7.65656 14.1735C7.17334 14.6399 6.52785 14.9004 5.85625 14.9C4.43625 14.9 3.25625 13.74 3.25625 12.3C3.25625 10.58 4.91625 9.29 6.62625 9.82V6.66C3.17625 6.2 0.15625 8.88 0.15625 12.3C0.15625 15.63 2.91625 18 5.84625 18C8.98625 18 11.5363 15.45 11.5363 12.3V6.01C12.7892 6.90985 14.2936 7.39265 15.8363 7.39V4.3C15.8363 4.3 13.9563 4.39 12.5963 2.82Z" fill="white"/>
-</svg>
-
+                            <Link
+                                target="_blank"
+                                to="https://www.tiktok.com/@saleseco5?_t=ZM-8wl8QuLSPOK&_r=1"
+                            >
+                                <svg
+                                    className="w-[2.25rem]"
+                                    viewBox="0 0 16 18"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M12.5963 2.82C11.9128 2.03953 11.5361 1.0374 11.5363 0H8.44625V12.4C8.42291 13.0712 8.13977 13.7071 7.65656 14.1735C7.17334 14.6399 6.52785 14.9004 5.85625 14.9C4.43625 14.9 3.25625 13.74 3.25625 12.3C3.25625 10.58 4.91625 9.29 6.62625 9.82V6.66C3.17625 6.2 0.15625 8.88 0.15625 12.3C0.15625 15.63 2.91625 18 5.84625 18C8.98625 18 11.5363 15.45 11.5363 12.3V6.01C12.7892 6.90985 14.2936 7.39265 15.8363 7.39V4.3C15.8363 4.3 13.9563 4.39 12.5963 2.82Z"
+                                        fill="white"
+                                    />
+                                </svg>
                             </Link>
                         </li>
                         <li className="p-[1rem] rounded-full bg-dark-gray">
-                            <Link target="_blank" to="https://youtube.com/@salesecoafrica?si=OirgIwEz7XiFgr7w">
-                            <svg className='w-[2.25rem]' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10 15L15.19 12L10 9V15ZM21.56 7.17C21.69 7.64 21.78 8.27 21.84 9.07C21.91 9.87 21.94 10.56 21.94 11.16L22 12C22 14.19 21.84 15.8 21.56 16.83C21.31 17.73 20.73 18.31 19.83 18.56C19.36 18.69 18.5 18.78 17.18 18.84C15.88 18.91 14.69 18.94 13.59 18.94L12 19C7.81 19 5.2 18.84 4.17 18.56C3.27 18.31 2.69 17.73 2.44 16.83C2.31 16.36 2.22 15.73 2.16 14.93C2.09 14.13 2.06 13.44 2.06 12.84L2 12C2 9.81 2.16 8.2 2.44 7.17C2.69 6.27 3.27 5.69 4.17 5.44C4.64 5.31 5.5 5.22 6.82 5.16C8.12 5.09 9.31 5.06 10.41 5.06L12 5C16.19 5 18.8 5.16 19.83 5.44C20.73 5.69 21.31 6.27 21.56 7.17Z" fill="white"/>
-</svg>
-
+                            <Link
+                                target="_blank"
+                                to="https://youtube.com/@salesecoafrica?si=OirgIwEz7XiFgr7w"
+                            >
+                                <svg
+                                    className="w-[2.25rem]"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M10 15L15.19 12L10 9V15ZM21.56 7.17C21.69 7.64 21.78 8.27 21.84 9.07C21.91 9.87 21.94 10.56 21.94 11.16L22 12C22 14.19 21.84 15.8 21.56 16.83C21.31 17.73 20.73 18.31 19.83 18.56C19.36 18.69 18.5 18.78 17.18 18.84C15.88 18.91 14.69 18.94 13.59 18.94L12 19C7.81 19 5.2 18.84 4.17 18.56C3.27 18.31 2.69 17.73 2.44 16.83C2.31 16.36 2.22 15.73 2.16 14.93C2.09 14.13 2.06 13.44 2.06 12.84L2 12C2 9.81 2.16 8.2 2.44 7.17C2.69 6.27 3.27 5.69 4.17 5.44C4.64 5.31 5.5 5.22 6.82 5.16C8.12 5.09 9.31 5.06 10.41 5.06L12 5C16.19 5 18.8 5.16 19.83 5.44C20.73 5.69 21.31 6.27 21.56 7.17Z"
+                                        fill="white"
+                                    />
+                                </svg>
                             </Link>
                         </li>
                     </ul>

@@ -77,7 +77,10 @@ const FooterDesktop = (props: Props) => {
                                 </Link>
                             </li>
                             <li className="p-[1rem] rounded-full bg-dark-gray">
-                                <Link target="_blank" to="https://youtube.com/@salesecoafrica?si=OirgIwEz7XiFgr7w">
+                                <Link
+                                    target="_blank"
+                                    to="https://youtube.com/@salesecoafrica?si=OirgIwEz7XiFgr7w"
+                                >
                                     <svg
                                         className="w-[2.25rem]"
                                         viewBox="0 0 24 24"

@@ -1,19 +1,16 @@
-import { useRef } from "react";
+import { useRef } from 'react';
 
-export function useScroll(): [
-  any,
-  (offset?: number) => void
-] {
-  const elRef = useRef<any>(null);
-  
-  const scrollTo = (offset = 0) => {
-    if (elRef.current) {
-      window.scrollTo({
-        top: elRef.current.offsetTop - offset,
-        behavior: 'smooth'
-      });
-    }
-  };
+export function useScroll(): [any, (offset?: number) => void] {
+    const elRef = useRef<any>(null);
 
-  return [elRef, scrollTo];
+    const scrollTo = (offset = 0) => {
+        if (elRef.current) {
+            window.scrollTo({
+                top: elRef.current.offsetTop - offset,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+    return [elRef, scrollTo];
 }

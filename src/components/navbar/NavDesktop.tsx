@@ -19,13 +19,22 @@ const NavDesktop = (props: Props) => {
 
             <div className="">
                 <ul className="flex items-center justify-between space-x-8">
-                    <li onClick={props.scrollToHowItWorks} className="text-[1.5rem] hover:text-gray-600 transition duration-300">
+                    <li
+                        onClick={props.scrollToHowItWorks}
+                        className="text-[1.5rem] hover:text-gray-600 transition duration-300"
+                    >
                         <Link to="/">How it works</Link>
                     </li>
-                    <li onClick={props.scrollToWhySalesEco} className="text-[1.5rem] hover:text-gray-600 transition duration-300">
+                    <li
+                        onClick={props.scrollToWhySalesEco}
+                        className="text-[1.5rem] hover:text-gray-600 transition duration-300"
+                    >
                         <Link to="/">Why SalesEco</Link>
                     </li>
-                    <li onClick={props.scrollToEarlyAccess} className="text-[1.5rem] hover:text-gray-600 transition duration-300">
+                    <li
+                        onClick={props.scrollToEarlyAccess}
+                        className="text-[1.5rem] hover:text-gray-600 transition duration-300"
+                    >
                         <Link to="/">Early access</Link>
                     </li>
                 </ul>
@@ -36,7 +45,8 @@ const NavDesktop = (props: Props) => {
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfyPmZHBlVgciq3UgSdU_6LW19FR7-E7zsIOrR4MQ_eGUTzZw/viewform?usp=dialog"
                         target="_blank"
-                        rel="noopener noreferrer">
+                        rel="noopener noreferrer"
+                    >
                         <button className="bg-btn-active py-[1rem] px-[1.5rem] rounded-[.75rem] text-white text-[1.5rem]">
                             Join waitlist
                         </button>
