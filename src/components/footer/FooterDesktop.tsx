@@ -4,9 +4,13 @@ import logo from '../../assets/icons/logo_light.png';
 import IonLogoX from '../icons/IonLogoX';
 import IonLocationOutline from '../icons/IonLocationOutline';
 
-// type Props = {};
+type Props = {
+    scrollToHowItWorks: () => void;
+    scrollToWhySalesEco: () => void;
+    scrollToEarlyAccess: () => void;
+};
 
-const FooterDesktop = () => {
+const FooterDesktop = (props: Props) => {
     return (
         <footer className="w-full flex justify-between py-[4.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}
@@ -112,14 +116,14 @@ const FooterDesktop = () => {
                             <span className="font-inter text-[1.75rem] text-[#D1D5DB]">Home</span>
                         </Link>
                     </li>
-                    <li>
+                    <li onClick={props.scrollToHowItWorks}>
                         <Link to="/">
                             <span className="font-inter text-[1.75rem] text-[#D1D5DB]">
                                 How it works
                             </span>
                         </Link>
                     </li>
-                    <li>
+                    <li onClick={props.scrollToWhySalesEco}>
                         <Link to="/">
                             <span className="font-inter text-[1.75rem] text-[#D1D5DB]">
                                 Why SalesEco

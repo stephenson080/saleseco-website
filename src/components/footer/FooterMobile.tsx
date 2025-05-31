@@ -3,9 +3,13 @@ import { Link } from 'react-router';
 import logo from '../../assets/icons/logo_light.png';
 import IonLogoX from '../icons/IonLogoX';
 
-// type Props = {};
+type Props = {
+    scrollToHowItWorks: () => void;
+    scrollToWhySalesEco: () => void;
+    scrollToEarlyAccess: () => void;
+};
 
-const FooterMobile = () => {
+const FooterMobile = (props: Props) => {
     return (
         <footer className="w-full py-[1.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}
@@ -28,14 +32,14 @@ const FooterMobile = () => {
                                 <span className="font-inter text-[1rem] text-[#D1D5DB]">Home</span>
                             </Link>
                         </li>
-                        <li>
+                        <li onClick={props.scrollToHowItWorks}>
                             <Link to="/">
                                 <span className="font-inter text-[1rem] text-[#D1D5DB]">
                                     How it works
                                 </span>
                             </Link>
                         </li>
-                        <li>
+                        <li onClick={props.scrollToWhySalesEco}>
                             <Link to="/">
                                 <span className="font-inter text-[1rem] text-[#D1D5DB]">
                                     Why SalesEco
