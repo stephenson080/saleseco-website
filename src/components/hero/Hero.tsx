@@ -1,9 +1,5 @@
 import CountdownTimer from '../countdown/CountdownTimer';
 
-// Images
-import image_1 from '../../assets/images/image_1.jpg';
-import image_2 from '../../assets/images/image_2.jpg';
-import image_3 from '../../assets/images/image_3.jpg';
 
 // type Props = {};
 
