@@ -11,7 +11,7 @@ const FooterDesktop = () => {
         <footer className="w-full flex justify-between py-[4.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}
             <div className="flex flex-col">
-                <div className="w-80 h-fit mb-[4rem]">
+                <div className="w-40 h-fit mb-[4rem]">
                     <Link to="/">
                         <img src={logo} alt="company_logo" />
                     </Link>
