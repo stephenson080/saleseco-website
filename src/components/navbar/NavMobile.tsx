@@ -41,7 +41,7 @@ const NavMobile = () => {
                 {isOpen && (
                     <motion.div
                         initial={{ x: 20, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
+                        animate={{ x: -10, opacity: 1 }}
                         exit={{ x: 20, opacity: 0 }}
                         className="fixed shadow-xl top-[120%] right-5 w-[20rem] h-fit  rounded-xl bg-white p-[1.5rem]"
                     >
