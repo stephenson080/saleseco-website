@@ -8,7 +8,7 @@ import LucideAlignJustify from '../icons/LucideAlignJustify';
 const NavMobile = () => {
     return (
         <nav className="flex items-center justify-between w-full px-[2rem]">
-            <div className="w-30 h-fit">
+            <div className="w-45 h-fit">
                 <Link to="/">
                     <img src={logo} alt="company_logo" />
                 </Link>

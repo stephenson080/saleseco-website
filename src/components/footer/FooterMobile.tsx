@@ -13,7 +13,7 @@ const FooterMobile = (props: Props) => {
     return (
         <footer className="w-full py-[1.5rem] px-[2rem] bg-[#111827]">
             {/* Top */}
-            <div className="w-30 h-fit mb-[4rem]">
+            <div className="w-30 h-fit mt-[1.5rem] mb-[4rem]">
                 <Link to="/">
                     <img src={logo} alt="company_logo" />
                 </Link>

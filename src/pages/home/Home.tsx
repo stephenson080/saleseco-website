@@ -681,7 +681,7 @@ const Home = (props: Props) => {
                                 href="mailto:support@saleseco.org"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
+                                <button className="py-[1.15rem] px-[1.75rem] text-[1.5rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
                                     Talk to us
                                 </button>
                             </a>
@@ -689,7 +689,7 @@ const Home = (props: Props) => {
                                 href="https://docs.google.com/document/d/1D3SP1A_0cevqY96WVR7pstAmHfy8ZU6ECk_5nLN_8oA/edit?tab=t.0"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <button className="py-[1.15rem] px-[1.75rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
+                                <button className="py-[1.15rem] px-[1.75rem] text-[1.5rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
                                     View our road map
                                 </button>
                             </a>
