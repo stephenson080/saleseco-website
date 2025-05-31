@@ -25,7 +25,11 @@ function App() {
                     />
                 </div>
                 <div className="md:hidden">
-                    <NavMobile />
+                    <NavMobile
+                        scrollToHowItWorks={() => scrollToHowItWorks(80)}
+                        scrollToWhySalesEco={() => scrollToWhySalesEco(88)}
+                        scrollToEarlyAccess={() => scrollToEarlyAccess(96)}
+                    />
                 </div>
             </div>
             <AnimatePresence mode="wait">
