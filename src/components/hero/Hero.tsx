@@ -1,8 +1,14 @@
+import { addCommasToNumber } from '../../lib/helpers';
 import CountdownTimer from '../countdown/CountdownTimer';
 
-// type Props = {};
+type Props = {
+    waitlistTotal: number
+    fetching: boolean
+};
 
-const Hero = () => {
+const Hero = (props: Props) => {
+    const totalWailist = 1343 + props.waitlistTotal
+    const value = props.fetching ? '...' : addCommasToNumber(totalWailist)
     return (
         <div className="relative h-full flex flex-col space-y-[2rem] justify-center items-center">
             <div>
@@ -39,7 +45,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        <span className="text-[1.5rem]">1,343 people have joined</span>
+                        <span className="text-[1.5rem]">{value} people have joined</span>
                     </div>
                 </div>
                 <div className="relative z-1">

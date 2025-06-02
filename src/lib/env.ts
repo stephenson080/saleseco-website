@@ -1,0 +1,1 @@
+export const DEP_ID = import.meta.env.VITE_DEP_ID
