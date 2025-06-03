@@ -507,17 +507,7 @@ const Home = (props: Props) => {
                                 }
                                 tabIndex={0}
                                 role="button"
-                                aria-label="Show more about step 1"
-                                animate={{
-                                    y: [0, -8, 0, 8, 0]
-                                }}
-                                transition={{
-                                    duration: 6,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                    ease: 'easeInOut',
-                                    delay: 0.2
-                                }}>
+                                aria-label="Show more about step 1">
                                 <div className="flex-shrink-0 h-[15rem] w-[50%] md:h-[28rem] rounded-[1.5rem] overflow-hidden">
                                     <motion.img
                                         src={image_1}
@@ -569,17 +559,7 @@ const Home = (props: Props) => {
                                 }
                                 tabIndex={0}
                                 role="button"
-                                aria-label="Show more about step 2"
-                                animate={{
-                                    x: [0, 10, 0, -10, 0]
-                                }}
-                                transition={{
-                                    duration: 7,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                    ease: 'easeInOut',
-                                    delay: 0.4
-                                }}>
+                                aria-label="Show more about step 2">
                                 <div className="flex-shrink-0 h-[15rem] w-[50%] md:h-[28rem] rounded-[1.5rem] overflow-hidden">
                                     <motion.img
                                         src={image_2}
@@ -632,17 +612,7 @@ const Home = (props: Props) => {
                                 }
                                 tabIndex={0}
                                 role="button"
-                                aria-label="Show more about step 3"
-                                animate={{
-                                    y: [0, 12, 0, -12, 0]
-                                }}
-                                transition={{
-                                    duration: 8,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                    ease: 'easeInOut',
-                                    delay: 0.6
-                                }}>
+                                aria-label="Show more about step 3">
                                 <div className="flex-shrink-0 h-[15rem] w-[50%] md:h-[28rem] rounded-[1.5rem] overflow-hidden">
                                     <motion.img
                                         src={image_3}
@@ -827,19 +797,7 @@ const Home = (props: Props) => {
                                 }
                                 tabIndex={0}
                                 role="button"
-                                aria-label={`Show more about ${card.title}`}
-                                animate={
-                                    idx % 2 === 0
-                                        ? { y: [0, 10, 0, -10, 0] }
-                                        : { x: [0, 10, 0, -10, 0] }
-                                }
-                                transition={{
-                                    duration: 6 + idx,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                    ease: 'easeInOut',
-                                    delay: 0.2 * idx
-                                }}>
+                                aria-label={`Show more about ${card.title}`}>
                                 <div className="mb-[2rem]">{card.icon}</div>
                                 <div>
                                     <h4 className="font-inter-bold text-[1.75rem] md:text-[2rem] mb-[.75rem]">
@@ -981,19 +939,7 @@ const Home = (props: Props) => {
                                 }
                                 tabIndex={0}
                                 role="button"
-                                aria-label={`Show more about ${perk.title}`}
-                                animate={
-                                    idx % 2 === 0
-                                        ? { y: [0, 8, 0, -8, 0] }
-                                        : { x: [0, 8, 0, -8, 0] }
-                                }
-                                transition={{
-                                    duration: 6 + idx,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                    ease: 'easeInOut',
-                                    delay: 0.2 * idx
-                                }}>
+                                aria-label={`Show more about ${perk.title}`}>
                                 <div className="p-[1rem] md:p-[2rem] h-fit rounded-full bg-light-blue">
                                     {perk.icon}
                                 </div>
@@ -1029,13 +975,6 @@ const Home = (props: Props) => {
                         whileHover={hoverVariants}
                         whileTap={tapVariants}
                         viewport={{ once: true, amount: 0.3 }}
-                        animate={{ y: [0, 10, 0, -10, 0] }}
-                        transition={{
-                            duration: 10,
-                            repeat: Infinity,
-                            repeatType: 'loop',
-                            ease: 'easeInOut'
-                        }}
                         onClick={(e) => {
                             e.preventDefault();
                             openModal(<ContactForm />);
@@ -1122,8 +1061,7 @@ const Home = (props: Props) => {
                         <div className="mb-[4rem]">
                             <span className="text-[1.25rem] md:text-[1.75rem] md:leading-[1.75rem]">
                                 We're building a transaction-focused marketplace that matches real
-                                users for <br className="hidden md:block" />
-                                serious results.
+                                users for serious results.
                             </span>
                         </div>
                         <div className="flex w-full justify-center gap-8 items-center">
