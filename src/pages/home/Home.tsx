@@ -517,7 +517,7 @@ const Home = (props: Props) => {
                                         transition={{ type: 'spring', stiffness: 200 }}
                                     />
                                 </div>
-                                <div className="flex gap-4 md:gap-12">
+                                <div className="flex gap-4 md:gap-12 pr-[2rem]">
                                     <span className="inline-block font-inter-bold text-[2rem] md:text-[3.5rem] text-[#3b82f6]">
                                         01)
                                     </span>
@@ -569,7 +569,7 @@ const Home = (props: Props) => {
                                         transition={{ type: 'spring', stiffness: 200 }}
                                     />
                                 </div>
-                                <div className="flex gap-4 md:gap-12">
+                                <div className="flex gap-4 md:gap-12 pr-[2rem] md:pr-[3.5rem]">
                                     <span className="inline-block font-inter-bold text-[2rem] md:text-[3.5rem] text-[#3b82f6]">
                                         02)
                                     </span>
@@ -613,7 +613,7 @@ const Home = (props: Props) => {
                                 tabIndex={0}
                                 role="button"
                                 aria-label="Show more about step 3">
-                                <div className="flex-shrink-0 h-[15rem] w-[50%] md:h-[28rem] rounded-[1.5rem] overflow-hidden">
+                                <div className="flex-shrink-0 h-[222.5px] w-[50%] md:h-[28rem] rounded-[1.5rem] overflow-hidden">
                                     <motion.img
                                         src={image_3}
                                         alt=""
@@ -622,7 +622,7 @@ const Home = (props: Props) => {
                                         transition={{ type: 'spring', stiffness: 200 }}
                                     />
                                 </div>
-                                <div className="w-full flex flex-col justify-between">
+                                <div className="w-full flex flex-col gap-[2rem] md:gap-[4rem] py-[2rem] md:py-0 pr-[2rem] md:pr-[3.5rem] justify-between">
                                     <div className="flex gap-4 md:gap-12">
                                         <span className="inline-block font-inter-bold text-[2rem] md:text-[3.5rem] text-[#3b82f6]">
                                             03)
