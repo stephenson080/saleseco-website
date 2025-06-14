@@ -974,11 +974,7 @@ const Home = (props: Props) => {
                         whileInView="onscreen"
                         whileHover={hoverVariants}
                         whileTap={tapVariants}
-                        viewport={{ once: true, amount: 0.3 }}
-                        onClick={(e) => {
-                            e.preventDefault();
-                            openModal(<ContactForm />);
-                        }}>
+                        viewport={{ once: true, amount: 0.3 }}>
                         <h4 className="text-[1.75rem] md:text-[2rem] font-inter-bold text-center mb-[2rem] md:mb-[4rem]">
                             SalesEco is built for people who've experienced:
                         </h4>
@@ -1066,10 +1062,9 @@ const Home = (props: Props) => {
                         </div>
                         <div className="flex w-full justify-center gap-8 items-center">
                             <a
-                                href="mailto:support@saleseco.org"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <button className="py-[1.15rem] px-[1.75rem] text-[1.5rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
+                                <button onClick={(e) => { e.preventDefault(); openModal(<ContactForm />); }} className="py-[1.15rem] px-[1.75rem] text-[1.5rem] border border-[#3b82f6] text-[#3b82f6] cursor-pointer rounded-[.85rem] md:text-[1.45rem]">
                                     Talk to us
                                 </button>
                             </a>
